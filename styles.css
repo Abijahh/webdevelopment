@@ -22,3 +22,9 @@ h1{
     border-style:dashed;
     color:cornflowerblue;
 }
+.one{
+    font-style: italic;
+    font-size: 10px;
+    color: gold;
+    background-color:black;
+}
