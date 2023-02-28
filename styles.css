@@ -1,0 +1,24 @@
+body{
+   /*background-image:url(./Rolls-Royce-Logo-2020.jpg);*/
+    background-repeat: no-repeat;
+    background-position: center;
+    border-color: orange;
+    /*background-attachment:scroll;*/
+}
+h1{
+    color:red
+}
+#para1{
+    color:deeppink;
+    border-style: solid;
+    border-color: blue;
+    color: crimson;
+    background-color: aqua;
+    border-radius: 20px;
+    border-top-style: dotted;
+
+}
+#param2 {
+    border-style:dashed;
+    color:cornflowerblue;
+}
