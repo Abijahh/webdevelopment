@@ -1,0 +1,23 @@
+body{
+    background-color:azure
+}
+h1{
+    color:darkred
+}
+table{
+    margin:2rem auto; /*centre the table*/
+    border:7px solid mediumblue;
+}
+#para1{
+    color:chartreuse;
+    border-style: solid;
+    border-color:limegreen;
+    color:limegreen;
+    background-color: aqua;
+    border-radius: 20px;
+    border-top-style: dotted;
+}
+#param2 {
+    border-style: dashed;
+    color:blue
+}
