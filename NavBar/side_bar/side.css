@@ -1,6 +1,6 @@
 .Side_bar{
     background-color:black;
-    color:white;
+    color:aquamarine;
     width: 150px;
     height: 100%;
     position: fixed;
@@ -21,7 +21,7 @@ li{
 }
 .sidebar a{
     text-decoration: none;
-    color:white;
+    color:mediumturquoise;
 }
 a:hover{
     background-color: aqua;
@@ -63,7 +63,7 @@ a:hover{
     background-color: black;
 }
 .contact-me a:hover{
-    background-color: azure;
+    background-color:darkorange;
     color: black;
     transition: delay 200ms ease-in-out;
 }
@@ -73,13 +73,16 @@ a:hover{
 
 }
 .read-more a{
-    color: white;
+    color:darkorange;
     background-color: black;
     font-weight: bold;
     padding:8px;
     font-size: 15px;
 }
 .read-more a:hover{
-    background-color: azure;
+    background-color:darkorange;
     color: black;
+}
+body{
+    background-color: aquamarine;
 }
