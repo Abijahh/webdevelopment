@@ -2,7 +2,7 @@
     background-color: deepskyblue;
 }
 body{
-    background-color: deepskyblue;
+    background-image: url('snow.jpg');
 }
 h1{
     text-underline-position: below;
@@ -12,4 +12,40 @@ h1{
 }
 #table2{
     border:yellow
+}
+.btn{
+    padding: 10px 30px;
+    background-color: transparent;
+    border:1px solid white;
+    color: azure;
+    outline: none;
+    transition: .6s ease;
+}
+.btn:hover{
+    cursor:pointer;
+    background-color: azure;
+    color: black;
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+    font-weight: bold;
+
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding:20px;
+    margin-bottom: 50px;
+}
+#pic{
+    display:flex;
+}
+#pic img{
+    width: 575px;
+    height: 400px;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 20px;
 }

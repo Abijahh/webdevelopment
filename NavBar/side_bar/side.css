@@ -1,6 +1,6 @@
 .Side_bar{
     background-color:black;
-    color:aquamarine;
+    color:aliceblue;
     width: 150px;
     height: 100%;
     position: fixed;
@@ -21,11 +21,11 @@ li{
 }
 .sidebar a{
     text-decoration: none;
-    color:mediumturquoise;
+    color:black;
 }
 a:hover{
-    background-color: aqua;
-    color: chartreuse;
+    background-color:aquamarine;
+    color: black
 
 }
 .rounded-image{
@@ -67,22 +67,41 @@ a:hover{
     color: black;
     transition: delay 200ms ease-in-out;
 }
-.read-more{
-    padding: 10px;
-    border: 1px solid
 
-}
-.read-more a{
-    color:darkorange;
-    background-color: black;
-    font-weight: bold;
-    padding:8px;
-    font-size: 15px;
-}
-.read-more a:hover{
-    background-color:darkorange;
-    color: black;
-}
+
 body{
     background-color: aquamarine;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('wahura.jpg') no-repeat center center/cover;
+    height:900px;
+    width:100%;
+    z-index: -1;
+    opacity: .8;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    border: 1px;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+.headings{
+    font-family: century;
+    font-size: 3rem;
+    text-align:center;
+    margin:40px 0px;
 }
